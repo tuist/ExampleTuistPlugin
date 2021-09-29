@@ -7,7 +7,7 @@ let package = Package(
     name: "LocalPlugin",
     products: [
         .executable(
-            name: "create-file",
+            name: "tuist-create-file",
             targets: ["CreateFile"]
         ),
     ],
