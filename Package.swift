@@ -17,5 +17,6 @@ let package = Package(
     ],
     targets: [
         .target(name: "CreateFile"),
+        .testTarget(name: "CreateFileTests")
     ]
 )
