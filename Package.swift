@@ -18,7 +18,7 @@ let package = Package(
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
-        .package(url: "../../../../", .branch("tuist-plugins-2.0-project-automation")),
+        .package(url: "https://github.com/tuist/tuist", .revision("8b5aa8a4c")),
     ],
     targets: [
         .target(

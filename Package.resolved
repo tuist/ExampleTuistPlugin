@@ -309,9 +309,9 @@
       },
       {
         "package": "tuist",
-        "repositoryURL": "/Users/marekfort/Developer/tuist",
+        "repositoryURL": "https://github.com/tuist/tuist",
         "state": {
-          "branch": "tuist-plugins-2.0-project-automation",
+          "branch": "8b5aa8a4c",
           "revision": "8b5aa8a4c12a26436cf7ba5cbdd7926a4604aee2",
           "version": null
         }
