@@ -311,8 +311,8 @@
         "package": "tuist",
         "repositoryURL": "https://github.com/tuist/tuist",
         "state": {
-          "branch": "56caabd33",
-          "revision": "56caabd33df0b6ad3c9ef62b4748b91a953d8134",
+          "branch": "cc762b1d4",
+          "revision": "cc762b1d4fba6b3c9e0e41783496f9d8ea8f918e",
           "version": null
         }
       },
