@@ -18,7 +18,7 @@ let package = Package(
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
-        .package(url: "https://github.com/tuist/ProjectAutomation", .exact("3.8.0")),
+        .package(url: "https://github.com/tuist/ProjectAutomation", .revisionItem("54d7d05bbe4ea1666400999acefb0ebbc23e91d8")),
     ],
     targets: [
         .target(
