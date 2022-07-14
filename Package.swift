@@ -18,20 +18,20 @@ let package = Package(
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
-        .package(url: "https://github.com/tuist/tuist", .revision("cc762b1d4")),
+        .package(url: "https://github.com/tuist/ProjectAutomation", .exact("3.8.0")),
     ],
     targets: [
         .target(
             name: "CreateFile",
             dependencies: [
-                .product(name: "ProjectAutomation", package: "tuist")
+                .product(name: "ProjectAutomation", package: "ProjectAutomation")
             ]
         ),
         .testTarget(name: "CreateFileTests"),
         .target(
             name: "InspectGraph",
             dependencies: [
-                .product(name: "ProjectAutomation", package: "tuist")
+                .product(name: "ProjectAutomation", package: "ProjectAutomation")
             ]
         ),
     ]
