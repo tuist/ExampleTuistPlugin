@@ -4,7 +4,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "LocalPlugin",
+    name: "RemotePlugin",
     platforms: [.macOS(.v11)],
     products: [
         .executable(
